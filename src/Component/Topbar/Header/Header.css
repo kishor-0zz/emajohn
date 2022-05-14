@@ -1,0 +1,36 @@
+.header {
+   text-align: center;
+   background: #6d5b3f;
+}
+
+.header ul {
+   margin: 0;
+}
+
+.header ul li {
+   list-style: none;
+   display: inline-block;
+
+
+}
+
+.header ul li a {
+   display: inline-block;
+   text-decoration: none;
+   color: #ffffff;
+   font-weight: 500;
+   font-size: 18px;
+   padding: 5px 18px;
+
+}
+
+.header ul li a:hover {
+   color: #080808;
+}
+
+.header ul li .nav-linkactive {
+   padding: 5px 18px;
+   color: #a81515;
+   background: #c9c5c5;
+   border-radius: 5px;
+}
